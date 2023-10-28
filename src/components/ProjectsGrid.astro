@@ -15,7 +15,7 @@ const { projects } = Astro.props;
   {
     projects.map((p: Project) => (
       // you can add href={p.link} target="_blank"
-      <a class="transition-all group" href="#">
+      <a class="transition-all group" href={p.link}>
         <li class="relative w-full rounded-2xl shadow-md transition-all duration-200 ease-in-out hover:scale-105 h-[300px] shadow-black">
           <img
             decoding="async"
