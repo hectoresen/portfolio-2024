@@ -3,6 +3,7 @@ interface Project {
   name: string;
   description: string;
   link: string;
+  img: string;
 }
 interface Props {
   projects: Project[];
@@ -21,8 +22,8 @@ const { projects } = Astro.props;
             decoding="async"
             loading="lazy"
             class="object-cover absolute inset-0 z-10 w-full max-w-full h-full max-h-full rounded-2xl aspect-[1/1]"
-            src={`images/${p.name.replace(/ /g, "").toLowerCase()}.png`}
-            alt={`Picture of ${p.name.replace(/ /g, "").toLowerCase()}`}
+            src={`images/${p.img}.png`}
+            alt={`Imagen ${p.name.replace(/ /g, "").toLowerCase()}`}
           />
 
           <div class="flex relative z-20 flex-col gap-2 justify-end p-4 w-full h-full">

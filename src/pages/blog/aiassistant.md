@@ -23,3 +23,5 @@ tags: ["OpenAi", "Twilio", "Nest.js", "Hubspot", "Stripe"]
 > - Typescript
 
 _*Este proyecto es privado sin embargo haremos una breve explicación de la utilización de cada tecnología.*_
+
+Próximamente
