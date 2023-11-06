@@ -3,7 +3,7 @@ layout: ../../layout/MarkdownLayout.astro
 title: "Asistente virtual con inteligencia artificial"
 description: "En este proyecto, hemos utilizado inteligencia artificial, combinado con un IVR (Twilio) y otras herramientas tenemos la capacidad de mantener una conversación tanto por chat como por voz."
 pubDate: 2022-12-12
-tags: ["OpenAi", "Twilio", "Nest.js", "Hubspot", "Stripe"]
+tags: ["OpenAi", "Twilio", "Nest.js", "Hubspot", "Stripe", "Typescript"]
 ---
 
 # Asistente virtual con inteligencia artificial
