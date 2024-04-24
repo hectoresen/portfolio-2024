@@ -1,25 +1,25 @@
 ---
 const jobs = [
   {
-    title: "Product Manager",
-    company: "Amazon",
-    timeRange: "2017-Present",
+    title: "Backend Developer",
+    company: "Cloud district",
+    timeRange: "2022-Present",
     description:
-      "As a product manager at Amazon, I was responsible for the development and execution of the company's product roadmap. This included setting goals and objectives, defining features, and working with cross-functional teams to bring new products and updates to market.",
+      "Soy responsable de implementar, integrar y mantener funcionalidades en los proyectos nuevos y existentes de la empresa, adoptando un enfoque completo desde el inicio hasta la culminación del proceso. Empleo metodologías ágiles para asegurar la calidad y la escalabilidad del código, manteniendo una comunicación fluida tanto con el equipo interno como con el cliente, según sea necesario.",
   },
   {
-    title: "Product Designer",
-    company: "Airbnb",
-    timeRange: "2014-2017",
+    title: "Full Stack",
+    company: "Freelance",
+    timeRange: "2021-2022",
     description:
-      "As a product designer at Airbnb, I was responsible for designing and developing new products and features for the company. This included conducting user research, creating wireframes and prototypes, and working with cross-functional teams to bring my designs to life.",
+      "Participé activamente en el desarrollo de nuevas funcionalidades para DoLaundry, así como en la creación de un sistema integral de compras, impresión y notificaciones para NaciónPoke.",
   },
   {
-    title: "iOS Software Engineer",
-    company: "Facebook",
-    timeRange: "2012-2014",
+    title: "Vendedor formador",
+    company: "Wurth",
+    timeRange: "2017-2022",
     description:
-      "As an iOS software engineer at Facebook, I was responsible for developing and maintaining the company's iOS app. This included designing and implementing new features, fixing bugs, and optimizing the app for performance and scalability.",
+      "Durante mi tiempo en Wurth, desempeñé el papel de Vendedor Formador con gran dedicación y éxito. Mis responsabilidades abarcaban la venta, gestión y seguimiento de una cartera y zona asignada. Además, tuve el privilegio de impartir formación a empleados, contribuyendo así al desarrollo profesional y al crecimiento del equipo. Esta experiencia me permitió fortalecer mis habilidades en ventas, gestión de clientes y liderazgo, mientras trabajaba en un entorno dinámico y desafiante.",
   },
 ];
 ---
@@ -47,7 +47,7 @@ const jobs = [
                       <img
                         decoding="async"
                         loading="lazy"
-                        src={`images/${j.company.toLowerCase()}.svg`}
+                        src={`images/${j.company.replace(/\s+/g, '').toLowerCase()}.svg`}
                         class="w-5 h-5 rounded-full ring-1 shadow-md shadow-primary-800/5 ring-primary-900"
                       />
                       <h3 class="text-base font-semibold tracking-tight sm:max-w-none sm:text-lg max-w-[20ch] text-primary-100">
